@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Rumtime动态添加属性.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>Runtime交换方法.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -93,6 +98,11 @@
 			<true/>
 		</dict>
 		<key>B3699C2E1D41BE9B0042CE17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B3699C4C1D41CC270042CE17</key>
 		<dict>
 			<key>primary</key>
 			<true/>

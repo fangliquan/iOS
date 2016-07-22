@@ -54,6 +54,13 @@
 		B3699C3E1D41BE9B0042CE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3699C3D1D41BE9B0042CE17 /* Assets.xcassets */; };
 		B3699C411D41BE9B0042CE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3699C3F1D41BE9B0042CE17 /* LaunchScreen.storyboard */; };
 		B3699C481D41BEC10042CE17 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C471D41BEC10042CE17 /* Person.m */; };
+		B3699C511D41CC270042CE17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C501D41CC270042CE17 /* main.m */; };
+		B3699C541D41CC270042CE17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C531D41CC270042CE17 /* AppDelegate.m */; };
+		B3699C571D41CC270042CE17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C561D41CC270042CE17 /* ViewController.m */; };
+		B3699C5A1D41CC270042CE17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3699C581D41CC270042CE17 /* Main.storyboard */; };
+		B3699C5C1D41CC270042CE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3699C5B1D41CC270042CE17 /* Assets.xcassets */; };
+		B3699C5F1D41CC270042CE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3699C5D1D41CC270042CE17 /* LaunchScreen.storyboard */; };
+		B3699C661D41CC890042CE17 /* NSObject+Objc.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C651D41CC890042CE17 /* NSObject+Objc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,6 +145,18 @@
 		B3699C421D41BE9B0042CE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3699C461D41BEC10042CE17 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		B3699C471D41BEC10042CE17 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B3699C4D1D41CC270042CE17 /* Rumtime动态添加属性.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rumtime动态添加属性.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3699C501D41CC270042CE17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3699C521D41CC270042CE17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3699C531D41CC270042CE17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3699C551D41CC270042CE17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3699C561D41CC270042CE17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3699C591D41CC270042CE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3699C5B1D41CC270042CE17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3699C5E1D41CC270042CE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3699C601D41CC270042CE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3699C641D41CC890042CE17 /* NSObject+Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Objc.h"; sourceTree = "<group>"; };
+		B3699C651D41CC890042CE17 /* NSObject+Objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Objc.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +202,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3699C4A1D41CC270042CE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -222,6 +248,7 @@
 				B35D3F441D40C17F00E08D4E /* Runtime消息机制 */,
 				B3451A551D40F89C004B334B /* Runtime交换方法 */,
 				B3699C301D41BE9B0042CE17 /* Runtime动态添加方法 */,
+				B3699C4E1D41CC270042CE17 /* Rumtime动态添加属性 */,
 				B35D3E871D40A61300E08D4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -235,6 +262,7 @@
 				B35D3F431D40C17F00E08D4E /* Runtime消息机制.app */,
 				B3451A541D40F89C004B334B /* Runtime交换方法.app */,
 				B3699C2F1D41BE9B0042CE17 /* Runtime动态添加方法.app */,
+				B3699C4D1D41CC270042CE17 /* Rumtime动态添加属性.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -377,6 +405,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B3699C4E1D41CC270042CE17 /* Rumtime动态添加属性 */ = {
+			isa = PBXGroup;
+			children = (
+				B3699C641D41CC890042CE17 /* NSObject+Objc.h */,
+				B3699C651D41CC890042CE17 /* NSObject+Objc.m */,
+				B3699C521D41CC270042CE17 /* AppDelegate.h */,
+				B3699C531D41CC270042CE17 /* AppDelegate.m */,
+				B3699C551D41CC270042CE17 /* ViewController.h */,
+				B3699C561D41CC270042CE17 /* ViewController.m */,
+				B3699C581D41CC270042CE17 /* Main.storyboard */,
+				B3699C5B1D41CC270042CE17 /* Assets.xcassets */,
+				B3699C5D1D41CC270042CE17 /* LaunchScreen.storyboard */,
+				B3699C601D41CC270042CE17 /* Info.plist */,
+				B3699C4F1D41CC270042CE17 /* Supporting Files */,
+			);
+			path = "Rumtime动态添加属性";
+			sourceTree = "<group>";
+		};
+		B3699C4F1D41CC270042CE17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3699C501D41CC270042CE17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -482,6 +536,23 @@
 			productReference = B3699C2F1D41BE9B0042CE17 /* Runtime动态添加方法.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B3699C4C1D41CC270042CE17 /* Rumtime动态添加属性 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3699C611D41CC270042CE17 /* Build configuration list for PBXNativeTarget "Rumtime动态添加属性" */;
+			buildPhases = (
+				B3699C491D41CC270042CE17 /* Sources */,
+				B3699C4A1D41CC270042CE17 /* Frameworks */,
+				B3699C4B1D41CC270042CE17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rumtime动态添加属性";
+			productName = "Rumtime动态添加属性";
+			productReference = B3699C4D1D41CC270042CE17 /* Rumtime动态添加属性.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -509,6 +580,9 @@
 					B3699C2E1D41BE9B0042CE17 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					B3699C4C1D41CC270042CE17 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = B35D3E811D40A61300E08D4E /* Build configuration list for PBXProject "IOS新特性" */;
@@ -530,6 +604,7 @@
 				B35D3F421D40C17F00E08D4E /* Runtime消息机制 */,
 				B3451A531D40F89C004B334B /* Runtime交换方法 */,
 				B3699C2E1D41BE9B0042CE17 /* Runtime动态添加方法 */,
+				B3699C4C1D41CC270042CE17 /* Rumtime动态添加属性 */,
 			);
 		};
 /* End PBXProject section */
@@ -593,6 +668,16 @@
 				B3699C411D41BE9B0042CE17 /* LaunchScreen.storyboard in Resources */,
 				B3699C3E1D41BE9B0042CE17 /* Assets.xcassets in Resources */,
 				B3699C3C1D41BE9B0042CE17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3699C4B1D41CC270042CE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3699C5F1D41CC270042CE17 /* LaunchScreen.storyboard in Resources */,
+				B3699C5C1D41CC270042CE17 /* Assets.xcassets in Resources */,
+				B3699C5A1D41CC270042CE17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +751,17 @@
 				B3699C361D41BE9B0042CE17 /* AppDelegate.m in Sources */,
 				B3699C481D41BEC10042CE17 /* Person.m in Sources */,
 				B3699C331D41BE9B0042CE17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3699C491D41CC270042CE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3699C571D41CC270042CE17 /* ViewController.m in Sources */,
+				B3699C541D41CC270042CE17 /* AppDelegate.m in Sources */,
+				B3699C511D41CC270042CE17 /* main.m in Sources */,
+				B3699C661D41CC890042CE17 /* NSObject+Objc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -764,6 +860,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				B3699C401D41BE9B0042CE17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B3699C581D41CC270042CE17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3699C591D41CC270042CE17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3699C5D1D41CC270042CE17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3699C5E1D41CC270042CE17 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -991,6 +1103,30 @@
 			};
 			name = Release;
 		};
+		B3699C621D41CC270042CE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Rumtime动态添加属性/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microleo.Rumtime------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3699C631D41CC270042CE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Rumtime动态添加属性/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microleo.Rumtime------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1053,6 +1189,14 @@
 			buildConfigurations = (
 				B3699C431D41BE9B0042CE17 /* Debug */,
 				B3699C441D41BE9B0042CE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3699C611D41CC270042CE17 /* Build configuration list for PBXNativeTarget "Rumtime动态添加属性" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3699C621D41CC270042CE17 /* Debug */,
+				B3699C631D41CC270042CE17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
