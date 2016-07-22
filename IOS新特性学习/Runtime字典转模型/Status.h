@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+@class User;
 @interface Status : NSObject
 
 @property(nonatomic, assign) int ID;
@@ -27,7 +28,7 @@
 
 @property(nonatomic, assign) int comments_count;
 
-@property(nonatomic, strong) NSDictionary *user;
+@property(nonatomic, strong) User *user;
 @property(nonatomic, strong) NSDictionary *retweeted_status;
 //模型属性名跟字典一一对应
 +(__kindof Status *)statusWithDict:(NSDictionary *)dict;

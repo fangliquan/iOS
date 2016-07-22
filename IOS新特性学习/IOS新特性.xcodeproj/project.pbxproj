@@ -70,6 +70,8 @@
 		B3699C831D41F3B30042CE17 /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3699C821D41F3B30042CE17 /* status.plist */; };
 		B3699C861D41F4810042CE17 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C851D41F4810042CE17 /* NSObject+Property.m */; };
 		B3699C891D41FE140042CE17 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C881D41FE140042CE17 /* Status.m */; };
+		B3B1F4AD1D4205A800A49284 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B1F4AC1D4205A800A49284 /* NSObject+Model.m */; };
+		B3B1F4B01D420C6900A49284 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B1F4AF1D420C6900A49284 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -181,6 +183,10 @@
 		B3699C851D41F4810042CE17 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		B3699C871D41FE140042CE17 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
 		B3699C881D41FE140042CE17 /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		B3B1F4AB1D4205A800A49284 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		B3B1F4AC1D4205A800A49284 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		B3B1F4AE1D420C6900A49284 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B3B1F4AF1D420C6900A49284 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -481,6 +487,10 @@
 				B3699C851D41F4810042CE17 /* NSObject+Property.m */,
 				B3699C871D41FE140042CE17 /* Status.h */,
 				B3699C881D41FE140042CE17 /* Status.m */,
+				B3B1F4AB1D4205A800A49284 /* NSObject+Model.h */,
+				B3B1F4AC1D4205A800A49284 /* NSObject+Model.m */,
+				B3B1F4AE1D420C6900A49284 /* User.h */,
+				B3B1F4AF1D420C6900A49284 /* User.m */,
 			);
 			path = "Runtime字典转模型";
 			sourceTree = "<group>";
@@ -864,8 +874,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3699C751D41F3A10042CE17 /* ViewController.m in Sources */,
+				B3B1F4B01D420C6900A49284 /* User.m in Sources */,
 				B3699C721D41F3A10042CE17 /* AppDelegate.m in Sources */,
 				B3699C861D41F4810042CE17 /* NSObject+Property.m in Sources */,
+				B3B1F4AD1D4205A800A49284 /* NSObject+Model.m in Sources */,
 				B3699C891D41FE140042CE17 /* Status.m in Sources */,
 				B3699C6F1D41F3A10042CE17 /* main.m in Sources */,
 			);
@@ -1337,6 +1349,7 @@
 				B3699C441D41BE9B0042CE17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3699C611D41CC270042CE17 /* Build configuration list for PBXNativeTarget "Rumtime动态添加属性" */ = {
 			isa = XCConfigurationList;
@@ -1345,6 +1358,7 @@
 				B3699C631D41CC270042CE17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3699C7F1D41F3A10042CE17 /* Build configuration list for PBXNativeTarget "Runtime字典转模型" */ = {
 			isa = XCConfigurationList;
@@ -1353,6 +1367,7 @@
 				B3699C811D41F3A10042CE17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

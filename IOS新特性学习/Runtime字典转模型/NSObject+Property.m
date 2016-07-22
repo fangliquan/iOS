@@ -25,12 +25,14 @@
         //属性策略 判断value类型，对象strong，基本数据类型 assign
         if ([value isKindOfClass:NSClassFromString(@"__NSCFString")]) {
             code = [NSString stringWithFormat:@"@property(nonatomic, strong) NSString *%@;",propertyName];
-        }else if ( [value isKindOfClass:NSClassFromString(@"__NSCFArray")]) {
+        }else if ([value isKindOfClass:NSClassFromString(@"__NSCFArray")]) {
             code = [NSString stringWithFormat:@"@property(nonatomic, strong) NSArray *%@;",propertyName];
         }else if ([value isKindOfClass:NSClassFromString(@"__NSCFDictionary")]) {
             code = [NSString stringWithFormat:@"@property(nonatomic, strong) NSDictionary *%@;",propertyName];
-        } else if ( [value isKindOfClass:NSClassFromString(@"__NSCFNumber")]) {
+        } else if ([value isKindOfClass:NSClassFromString(@"__NSCFNumber")]) {
             code = [NSString stringWithFormat:@"@property(nonatomic, assign) int %@;",propertyName];
+        }else if ([value isKindOfClass:NSClassFromString(@"__NSCFBoolean")]) {
+            code = [NSString stringWithFormat:@"@property(nonatomic, assign) BOOL %@;",propertyName];
         }
         [strM appendFormat:@"\n%@\n",code];
     }];
