@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "NSObject+Property.h"
+#import "Status.h"
 
 @interface ViewController ()
 
@@ -22,7 +23,15 @@
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"status.plist" ofType:nil];
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:filePath];
     NSArray *dictArr = dict[@"statuses"];
-   [NSObject createPropertyCodeWithDict:dictArr[0]];
+    NSMutableArray *statusArray = [NSMutableArray array];
+    for (NSDictionary *dictArray in dictArr) {
+         Status *status = [Status statusWithDict:dictArray];
+        [statusArray addObject:status];
+    }
+    
+    
+    NSLog(@"%@",statusArray);
+    //[NSObject createPropertyCodeWithDict:dictArr[0]];
 }
 
 - (void)didReceiveMemoryWarning {

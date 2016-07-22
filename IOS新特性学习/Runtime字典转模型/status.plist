@@ -5,6 +5,8 @@
 	<key>statuses</key>
 	<array>
 		<dict>
+			<key>id</key>
+			<integer>1234</integer>
 			<key>attitudes_count</key>
 			<integer>3</integer>
 			<key>comments_count</key>

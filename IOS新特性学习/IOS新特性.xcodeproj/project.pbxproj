@@ -69,6 +69,7 @@
 		B3699C7D1D41F3A10042CE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3699C7B1D41F3A10042CE17 /* LaunchScreen.storyboard */; };
 		B3699C831D41F3B30042CE17 /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3699C821D41F3B30042CE17 /* status.plist */; };
 		B3699C861D41F4810042CE17 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C851D41F4810042CE17 /* NSObject+Property.m */; };
+		B3699C891D41FE140042CE17 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C881D41FE140042CE17 /* Status.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -178,6 +179,8 @@
 		B3699C821D41F3B30042CE17 /* status.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status.plist; sourceTree = "<group>"; };
 		B3699C841D41F4810042CE17 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		B3699C851D41F4810042CE17 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		B3699C871D41FE140042CE17 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		B3699C881D41FE140042CE17 /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -476,6 +479,8 @@
 				B3699C6D1D41F3A10042CE17 /* Supporting Files */,
 				B3699C841D41F4810042CE17 /* NSObject+Property.h */,
 				B3699C851D41F4810042CE17 /* NSObject+Property.m */,
+				B3699C871D41FE140042CE17 /* Status.h */,
+				B3699C881D41FE140042CE17 /* Status.m */,
 			);
 			path = "Runtime字典转模型";
 			sourceTree = "<group>";
@@ -861,6 +866,7 @@
 				B3699C751D41F3A10042CE17 /* ViewController.m in Sources */,
 				B3699C721D41F3A10042CE17 /* AppDelegate.m in Sources */,
 				B3699C861D41F4810042CE17 /* NSObject+Property.m in Sources */,
+				B3699C891D41FE140042CE17 /* Status.m in Sources */,
 				B3699C6F1D41F3A10042CE17 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
