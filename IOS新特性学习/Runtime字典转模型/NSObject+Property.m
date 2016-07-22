@@ -14,6 +14,9 @@
     
   //  @property(nonatomic, strong) NSArray *array;
     
+    
+    
+    
     //属性代码
     NSMutableString *strM = [NSMutableString string];
     [dict enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull propertyName, id  _Nonnull value, BOOL * _Nonnull stop) {
