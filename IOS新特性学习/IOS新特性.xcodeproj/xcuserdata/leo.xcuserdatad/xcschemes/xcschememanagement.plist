@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>const与宏的区别.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>关键字_kindof.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -113,6 +118,11 @@
 			<true/>
 		</dict>
 		<key>B3699C6A1D41F3A10042CE17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B3B1F4B41D421F1200A49284</key>
 		<dict>
 			<key>primary</key>
 			<true/>
