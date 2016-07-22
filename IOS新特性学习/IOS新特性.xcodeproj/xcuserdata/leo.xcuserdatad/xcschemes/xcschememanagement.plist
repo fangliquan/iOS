@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>Runtime动态添加方法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Runtime消息机制.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -83,6 +88,11 @@
 			<true/>
 		</dict>
 		<key>B35D3F421D40C17F00E08D4E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B3699C2E1D41BE9B0042CE17</key>
 		<dict>
 			<key>primary</key>
 			<true/>

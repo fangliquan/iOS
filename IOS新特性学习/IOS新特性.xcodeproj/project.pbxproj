@@ -47,6 +47,13 @@
 		B35D3F521D40C17F00E08D4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35D3F511D40C17F00E08D4E /* Assets.xcassets */; };
 		B35D3F551D40C17F00E08D4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35D3F531D40C17F00E08D4E /* LaunchScreen.storyboard */; };
 		B35D3F5C1D40C1B100E08D4E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B35D3F5B1D40C1B100E08D4E /* Person.m */; };
+		B3699C331D41BE9B0042CE17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C321D41BE9B0042CE17 /* main.m */; };
+		B3699C361D41BE9B0042CE17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C351D41BE9B0042CE17 /* AppDelegate.m */; };
+		B3699C391D41BE9B0042CE17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C381D41BE9B0042CE17 /* ViewController.m */; };
+		B3699C3C1D41BE9B0042CE17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3699C3A1D41BE9B0042CE17 /* Main.storyboard */; };
+		B3699C3E1D41BE9B0042CE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3699C3D1D41BE9B0042CE17 /* Assets.xcassets */; };
+		B3699C411D41BE9B0042CE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3699C3F1D41BE9B0042CE17 /* LaunchScreen.storyboard */; };
+		B3699C481D41BEC10042CE17 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C471D41BEC10042CE17 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +126,18 @@
 		B35D3F561D40C17F00E08D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B35D3F5A1D40C1B100E08D4E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		B35D3F5B1D40C1B100E08D4E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B3699C2F1D41BE9B0042CE17 /* Runtime动态添加方法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runtime动态添加方法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3699C321D41BE9B0042CE17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3699C341D41BE9B0042CE17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3699C351D41BE9B0042CE17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3699C371D41BE9B0042CE17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3699C381D41BE9B0042CE17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3699C3B1D41BE9B0042CE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3699C3D1D41BE9B0042CE17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3699C401D41BE9B0042CE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3699C421D41BE9B0042CE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3699C461D41BEC10042CE17 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B3699C471D41BEC10042CE17 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +170,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B35D3F401D40C17F00E08D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3699C2C1D41BE9B0042CE17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,6 +221,7 @@
 				B35D3F071D40BA6D00E08D4E /* 关键字_kindof */,
 				B35D3F441D40C17F00E08D4E /* Runtime消息机制 */,
 				B3451A551D40F89C004B334B /* Runtime交换方法 */,
+				B3699C301D41BE9B0042CE17 /* Runtime动态添加方法 */,
 				B35D3E871D40A61300E08D4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -207,6 +234,7 @@
 				B35D3F061D40BA6D00E08D4E /* 关键字_kindof.app */,
 				B35D3F431D40C17F00E08D4E /* Runtime消息机制.app */,
 				B3451A541D40F89C004B334B /* Runtime交换方法.app */,
+				B3699C2F1D41BE9B0042CE17 /* Runtime动态添加方法.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -323,6 +351,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B3699C301D41BE9B0042CE17 /* Runtime动态添加方法 */ = {
+			isa = PBXGroup;
+			children = (
+				B3699C341D41BE9B0042CE17 /* AppDelegate.h */,
+				B3699C351D41BE9B0042CE17 /* AppDelegate.m */,
+				B3699C371D41BE9B0042CE17 /* ViewController.h */,
+				B3699C381D41BE9B0042CE17 /* ViewController.m */,
+				B3699C3A1D41BE9B0042CE17 /* Main.storyboard */,
+				B3699C3D1D41BE9B0042CE17 /* Assets.xcassets */,
+				B3699C3F1D41BE9B0042CE17 /* LaunchScreen.storyboard */,
+				B3699C421D41BE9B0042CE17 /* Info.plist */,
+				B3699C311D41BE9B0042CE17 /* Supporting Files */,
+				B3699C461D41BEC10042CE17 /* Person.h */,
+				B3699C471D41BEC10042CE17 /* Person.m */,
+			);
+			path = "Runtime动态添加方法";
+			sourceTree = "<group>";
+		};
+		B3699C311D41BE9B0042CE17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3699C321D41BE9B0042CE17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -411,6 +465,23 @@
 			productReference = B35D3F431D40C17F00E08D4E /* Runtime消息机制.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B3699C2E1D41BE9B0042CE17 /* Runtime动态添加方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3699C451D41BE9B0042CE17 /* Build configuration list for PBXNativeTarget "Runtime动态添加方法" */;
+			buildPhases = (
+				B3699C2B1D41BE9B0042CE17 /* Sources */,
+				B3699C2C1D41BE9B0042CE17 /* Frameworks */,
+				B3699C2D1D41BE9B0042CE17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Runtime动态添加方法";
+			productName = "Runtime动态添加方法";
+			productReference = B3699C2F1D41BE9B0042CE17 /* Runtime动态添加方法.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -435,6 +506,9 @@
 					B35D3F421D40C17F00E08D4E = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					B3699C2E1D41BE9B0042CE17 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = B35D3E811D40A61300E08D4E /* Build configuration list for PBXProject "IOS新特性" */;
@@ -455,6 +529,7 @@
 				B35D3F051D40BA6D00E08D4E /* 关键字_kindof */,
 				B35D3F421D40C17F00E08D4E /* Runtime消息机制 */,
 				B3451A531D40F89C004B334B /* Runtime交换方法 */,
+				B3699C2E1D41BE9B0042CE17 /* Runtime动态添加方法 */,
 			);
 		};
 /* End PBXProject section */
@@ -508,6 +583,16 @@
 				B35D3F551D40C17F00E08D4E /* LaunchScreen.storyboard in Resources */,
 				B35D3F521D40C17F00E08D4E /* Assets.xcassets in Resources */,
 				B35D3F501D40C17F00E08D4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3699C2D1D41BE9B0042CE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3699C411D41BE9B0042CE17 /* LaunchScreen.storyboard in Resources */,
+				B3699C3E1D41BE9B0042CE17 /* Assets.xcassets in Resources */,
+				B3699C3C1D41BE9B0042CE17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +655,17 @@
 				B35D3F4A1D40C17F00E08D4E /* AppDelegate.m in Sources */,
 				B35D3F5C1D40C1B100E08D4E /* Person.m in Sources */,
 				B35D3F471D40C17F00E08D4E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3699C2B1D41BE9B0042CE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3699C391D41BE9B0042CE17 /* ViewController.m in Sources */,
+				B3699C361D41BE9B0042CE17 /* AppDelegate.m in Sources */,
+				B3699C481D41BEC10042CE17 /* Person.m in Sources */,
+				B3699C331D41BE9B0042CE17 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +748,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				B35D3F541D40C17F00E08D4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B3699C3A1D41BE9B0042CE17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3699C3B1D41BE9B0042CE17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3699C3F1D41BE9B0042CE17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3699C401D41BE9B0042CE17 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -855,6 +967,30 @@
 			};
 			name = Release;
 		};
+		B3699C431D41BE9B0042CE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Runtime动态添加方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microleo.Runtime------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3699C441D41BE9B0042CE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Runtime动态添加方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microleo.Runtime------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -865,6 +1001,7 @@
 				B3451A691D40F89C004B334B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B35D3E811D40A61300E08D4E /* Build configuration list for PBXProject "IOS新特性" */ = {
 			isa = XCConfigurationList;
@@ -910,6 +1047,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B3699C451D41BE9B0042CE17 /* Build configuration list for PBXNativeTarget "Runtime动态添加方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3699C431D41BE9B0042CE17 /* Debug */,
+				B3699C441D41BE9B0042CE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
