@@ -26,11 +26,14 @@
     3.宏的好处:可以定义代码
     4.宏的坏处:编译时间过长，因此常用的字符串通常使用const修饰
  */
+
+
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

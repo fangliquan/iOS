@@ -76,6 +76,12 @@
 		B3699C831D41F3B30042CE17 /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3699C821D41F3B30042CE17 /* status.plist */; };
 		B3699C861D41F4810042CE17 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C851D41F4810042CE17 /* NSObject+Property.m */; };
 		B3699C891D41FE140042CE17 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C881D41FE140042CE17 /* Status.m */; };
+		B36DF2E31D45EB6B0026F7DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DF2E21D45EB6B0026F7DA /* main.m */; };
+		B36DF2E61D45EB6B0026F7DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DF2E51D45EB6B0026F7DA /* AppDelegate.m */; };
+		B36DF2E91D45EB6B0026F7DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DF2E81D45EB6B0026F7DA /* ViewController.m */; };
+		B36DF2EC1D45EB6B0026F7DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36DF2EA1D45EB6B0026F7DA /* Main.storyboard */; };
+		B36DF2EE1D45EB6B0026F7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36DF2ED1D45EB6B0026F7DA /* Assets.xcassets */; };
+		B36DF2F11D45EB6B0026F7DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36DF2EF1D45EB6B0026F7DA /* LaunchScreen.storyboard */; };
 		B3B1F4AD1D4205A800A49284 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B1F4AC1D4205A800A49284 /* NSObject+Model.m */; };
 		B3B1F4B01D420C6900A49284 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B1F4AF1D420C6900A49284 /* User.m */; };
 		B3B1F4B91D421F1200A49284 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B1F4B81D421F1200A49284 /* main.m */; };
@@ -205,6 +211,16 @@
 		B3699C851D41F4810042CE17 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		B3699C871D41FE140042CE17 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
 		B3699C881D41FE140042CE17 /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		B36DF2DF1D45EB6B0026F7DA /* static_extern使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "static_extern使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36DF2E21D45EB6B0026F7DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B36DF2E41D45EB6B0026F7DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B36DF2E51D45EB6B0026F7DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B36DF2E71D45EB6B0026F7DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B36DF2E81D45EB6B0026F7DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B36DF2EB1D45EB6B0026F7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B36DF2ED1D45EB6B0026F7DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B36DF2F01D45EB6B0026F7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B36DF2F21D45EB6B0026F7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3B1F4AB1D4205A800A49284 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
 		B3B1F4AC1D4205A800A49284 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
 		B3B1F4AE1D420C6900A49284 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
@@ -285,6 +301,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B36DF2DC1D45EB6B0026F7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3B1F4B21D421F1200A49284 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -359,6 +382,7 @@
 				B3699C6C1D41F3A10042CE17 /* Runtime字典转模型 */,
 				B3B1F4B61D421F1200A49284 /* const与宏的区别 */,
 				0A5902D31D430AA000996B0D /* const简单实用 */,
+				B36DF2E01D45EB6B0026F7DA /* static_extern使用 */,
 				B35D3E871D40A61300E08D4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -376,6 +400,7 @@
 				B3699C6B1D41F3A10042CE17 /* Runtime字典转模型.app */,
 				B3B1F4B51D421F1200A49284 /* const与宏的区别.app */,
 				0A5902D21D430AA000996B0D /* const简单实用.app */,
+				B36DF2DF1D45EB6B0026F7DA /* static_extern使用.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -577,6 +602,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B36DF2E01D45EB6B0026F7DA /* static_extern使用 */ = {
+			isa = PBXGroup;
+			children = (
+				B36DF2E41D45EB6B0026F7DA /* AppDelegate.h */,
+				B36DF2E51D45EB6B0026F7DA /* AppDelegate.m */,
+				B36DF2E71D45EB6B0026F7DA /* ViewController.h */,
+				B36DF2E81D45EB6B0026F7DA /* ViewController.m */,
+				B36DF2EA1D45EB6B0026F7DA /* Main.storyboard */,
+				B36DF2ED1D45EB6B0026F7DA /* Assets.xcassets */,
+				B36DF2EF1D45EB6B0026F7DA /* LaunchScreen.storyboard */,
+				B36DF2F21D45EB6B0026F7DA /* Info.plist */,
+				B36DF2E11D45EB6B0026F7DA /* Supporting Files */,
+			);
+			path = "static_extern使用";
+			sourceTree = "<group>";
+		};
+		B36DF2E11D45EB6B0026F7DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36DF2E21D45EB6B0026F7DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B3B1F4B61D421F1200A49284 /* const与宏的区别 */ = {
 			isa = PBXGroup;
 			children = (
@@ -757,6 +806,23 @@
 			productReference = B3699C6B1D41F3A10042CE17 /* Runtime字典转模型.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B36DF2DE1D45EB6B0026F7DA /* static_extern使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36DF2F51D45EB6B0026F7DA /* Build configuration list for PBXNativeTarget "static_extern使用" */;
+			buildPhases = (
+				B36DF2DB1D45EB6B0026F7DA /* Sources */,
+				B36DF2DC1D45EB6B0026F7DA /* Frameworks */,
+				B36DF2DD1D45EB6B0026F7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "static_extern使用";
+			productName = "static_extern使用";
+			productReference = B36DF2DF1D45EB6B0026F7DA /* static_extern使用.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B3B1F4B41D421F1200A49284 /* const与宏的区别 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3B1F4C91D421F1200A49284 /* Build configuration list for PBXNativeTarget "const与宏的区别" */;
@@ -810,6 +876,9 @@
 					B3699C6A1D41F3A10042CE17 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					B36DF2DE1D45EB6B0026F7DA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					B3B1F4B41D421F1200A49284 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -838,6 +907,7 @@
 				B3699C6A1D41F3A10042CE17 /* Runtime字典转模型 */,
 				B3B1F4B41D421F1200A49284 /* const与宏的区别 */,
 				0A5902D11D430AA000996B0D /* const简单实用 */,
+				B36DF2DE1D45EB6B0026F7DA /* static_extern使用 */,
 			);
 		};
 /* End PBXProject section */
@@ -932,6 +1002,16 @@
 				B3699C7A1D41F3A10042CE17 /* Assets.xcassets in Resources */,
 				B3699C831D41F3B30042CE17 /* status.plist in Resources */,
 				B3699C781D41F3A10042CE17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36DF2DD1D45EB6B0026F7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36DF2F11D45EB6B0026F7DA /* LaunchScreen.storyboard in Resources */,
+				B36DF2EE1D45EB6B0026F7DA /* Assets.xcassets in Resources */,
+				B36DF2EC1D45EB6B0026F7DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1050,6 +1130,16 @@
 				B3B1F4AD1D4205A800A49284 /* NSObject+Model.m in Sources */,
 				B3699C891D41FE140042CE17 /* Status.m in Sources */,
 				B3699C6F1D41F3A10042CE17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36DF2DB1D45EB6B0026F7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36DF2E91D45EB6B0026F7DA /* ViewController.m in Sources */,
+				B36DF2E61D45EB6B0026F7DA /* AppDelegate.m in Sources */,
+				B36DF2E31D45EB6B0026F7DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1206,6 +1296,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				B3699C7C1D41F3A10042CE17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B36DF2EA1D45EB6B0026F7DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36DF2EB1D45EB6B0026F7DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B36DF2EF1D45EB6B0026F7DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36DF2F01D45EB6B0026F7DA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1521,6 +1627,30 @@
 			};
 			name = Release;
 		};
+		B36DF2F31D45EB6B0026F7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "static_extern使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microleo.static-extern--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B36DF2F41D45EB6B0026F7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "static_extern使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microleo.static-extern--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B3B1F4CA1D421F1200A49284 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1555,6 +1685,7 @@
 				0A5902E71D430AA000996B0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3451A6A1D40F89C004B334B /* Build configuration list for PBXNativeTarget "Runtime交换方法" */ = {
 			isa = XCConfigurationList;
@@ -1636,6 +1767,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B36DF2F51D45EB6B0026F7DA /* Build configuration list for PBXNativeTarget "static_extern使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36DF2F31D45EB6B0026F7DA /* Debug */,
+				B36DF2F41D45EB6B0026F7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		B3B1F4C91D421F1200A49284 /* Build configuration list for PBXNativeTarget "const与宏的区别" */ = {
 			isa = XCConfigurationList;
