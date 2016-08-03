@@ -13,6 +13,12 @@
 		B35834AE1D49DE8400E4C453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35834AC1D49DE8400E4C453 /* Main.storyboard */; };
 		B35834B01D49DE8400E4C453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35834AF1D49DE8400E4C453 /* Assets.xcassets */; };
 		B35834B31D49DE8400E4C453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35834B11D49DE8400E4C453 /* LaunchScreen.storyboard */; };
+		B35834C21D49FBBF00E4C453 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B35834C11D49FBBF00E4C453 /* main.m */; };
+		B35834C51D49FBBF00E4C453 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B35834C41D49FBBF00E4C453 /* AppDelegate.m */; };
+		B35834C81D49FBBF00E4C453 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35834C71D49FBBF00E4C453 /* ViewController.m */; };
+		B35834CB1D49FBC000E4C453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35834C91D49FBC000E4C453 /* Main.storyboard */; };
+		B35834CD1D49FBC000E4C453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35834CC1D49FBC000E4C453 /* Assets.xcassets */; };
+		B35834D01D49FBC000E4C453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35834CE1D49FBC000E4C453 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +32,27 @@
 		B35834AF1D49DE8400E4C453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B35834B21D49DE8400E4C453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B35834B41D49DE8400E4C453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B35834BE1D49FBBF00E4C453 /* NSThreadStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSThreadStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35834C11D49FBBF00E4C453 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B35834C31D49FBBF00E4C453 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B35834C41D49FBBF00E4C453 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B35834C61D49FBBF00E4C453 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B35834C71D49FBBF00E4C453 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B35834CA1D49FBC000E4C453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B35834CC1D49FBC000E4C453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B35834CF1D49FBC000E4C453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B35834D11D49FBC000E4C453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B358349D1D49DE8400E4C453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35834BB1D49FBBF00E4C453 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				B35834A21D49DE8400E4C453 /* iOS多线程 */,
+				B35834BF1D49FBBF00E4C453 /* NSThreadStudy */,
 				B35834A11D49DE8400E4C453 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				B35834A01D49DE8400E4C453 /* iOS多线程.app */,
+				B35834BE1D49FBBF00E4C453 /* NSThreadStudy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +104,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B35834BF1D49FBBF00E4C453 /* NSThreadStudy */ = {
+			isa = PBXGroup;
+			children = (
+				B35834C31D49FBBF00E4C453 /* AppDelegate.h */,
+				B35834C41D49FBBF00E4C453 /* AppDelegate.m */,
+				B35834C61D49FBBF00E4C453 /* ViewController.h */,
+				B35834C71D49FBBF00E4C453 /* ViewController.m */,
+				B35834C91D49FBC000E4C453 /* Main.storyboard */,
+				B35834CC1D49FBC000E4C453 /* Assets.xcassets */,
+				B35834CE1D49FBC000E4C453 /* LaunchScreen.storyboard */,
+				B35834D11D49FBC000E4C453 /* Info.plist */,
+				B35834C01D49FBBF00E4C453 /* Supporting Files */,
+			);
+			path = NSThreadStudy;
+			sourceTree = "<group>";
+		};
+		B35834C01D49FBBF00E4C453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B35834C11D49FBBF00E4C453 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +148,23 @@
 			productReference = B35834A01D49DE8400E4C453 /* iOS多线程.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B35834BD1D49FBBF00E4C453 /* NSThreadStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35834D41D49FBC000E4C453 /* Build configuration list for PBXNativeTarget "NSThreadStudy" */;
+			buildPhases = (
+				B35834BA1D49FBBF00E4C453 /* Sources */,
+				B35834BB1D49FBBF00E4C453 /* Frameworks */,
+				B35834BC1D49FBBF00E4C453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSThreadStudy;
+			productName = NSThreadStudy;
+			productReference = B35834BE1D49FBBF00E4C453 /* NSThreadStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -109,6 +175,9 @@
 				ORGANIZATIONNAME = leo;
 				TargetAttributes = {
 					B358349F1D49DE8400E4C453 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B35834BD1D49FBBF00E4C453 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -127,6 +196,7 @@
 			projectRoot = "";
 			targets = (
 				B358349F1D49DE8400E4C453 /* iOS多线程 */,
+				B35834BD1D49FBBF00E4C453 /* NSThreadStudy */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +212,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B35834BC1D49FBBF00E4C453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35834D01D49FBC000E4C453 /* LaunchScreen.storyboard in Resources */,
+				B35834CD1D49FBC000E4C453 /* Assets.xcassets in Resources */,
+				B35834CB1D49FBC000E4C453 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -152,6 +232,16 @@
 				B35834AB1D49DE8400E4C453 /* ViewController.m in Sources */,
 				B35834A81D49DE8400E4C453 /* AppDelegate.m in Sources */,
 				B35834A51D49DE8400E4C453 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35834BA1D49FBBF00E4C453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35834C81D49FBBF00E4C453 /* ViewController.m in Sources */,
+				B35834C51D49FBBF00E4C453 /* AppDelegate.m in Sources */,
+				B35834C21D49FBBF00E4C453 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +260,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				B35834B21D49DE8400E4C453 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B35834C91D49FBC000E4C453 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35834CA1D49FBC000E4C453 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B35834CE1D49FBC000E4C453 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35834CF1D49FBC000E4C453 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -283,6 +389,28 @@
 			};
 			name = Release;
 		};
+		B35834D21D49FBC000E4C453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSThreadStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microleo.NSThreadStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B35834D31D49FBC000E4C453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSThreadStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microleo.NSThreadStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -302,6 +430,16 @@
 				B35834B91D49DE8400E4C453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35834D41D49FBC000E4C453 /* Build configuration list for PBXNativeTarget "NSThreadStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35834D21D49FBC000E4C453 /* Debug */,
+				B35834D31D49FBC000E4C453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
