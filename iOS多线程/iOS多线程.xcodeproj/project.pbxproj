@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B352F3191D52206600E465F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B352F3181D52206600E465F1 /* main.m */; };
+		B352F31C1D52206600E465F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B352F31B1D52206600E465F1 /* AppDelegate.m */; };
+		B352F31F1D52206600E465F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B352F31E1D52206600E465F1 /* ViewController.m */; };
+		B352F3221D52206600E465F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B352F3201D52206600E465F1 /* Main.storyboard */; };
+		B352F3241D52206600E465F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B352F3231D52206600E465F1 /* Assets.xcassets */; };
+		B352F3271D52206600E465F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B352F3251D52206600E465F1 /* LaunchScreen.storyboard */; };
 		B35834A51D49DE8400E4C453 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B35834A41D49DE8400E4C453 /* main.m */; };
 		B35834A81D49DE8400E4C453 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B35834A71D49DE8400E4C453 /* AppDelegate.m */; };
 		B35834AB1D49DE8400E4C453 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35834AA1D49DE8400E4C453 /* ViewController.m */; };
@@ -22,6 +28,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B352F3151D52206600E465F1 /* 链式编程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "链式编程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B352F3181D52206600E465F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B352F31A1D52206600E465F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B352F31B1D52206600E465F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B352F31D1D52206600E465F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B352F31E1D52206600E465F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B352F3211D52206600E465F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B352F3231D52206600E465F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B352F3261D52206600E465F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B352F3281D52206600E465F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B35834A01D49DE8400E4C453 /* iOS多线程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS多线程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35834A41D49DE8400E4C453 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B35834A61D49DE8400E4C453 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +61,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B352F3121D52206600E465F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B358349D1D49DE8400E4C453 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,11 +85,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B352F3161D52206600E465F1 /* 链式编程 */ = {
+			isa = PBXGroup;
+			children = (
+				B352F31A1D52206600E465F1 /* AppDelegate.h */,
+				B352F31B1D52206600E465F1 /* AppDelegate.m */,
+				B352F31D1D52206600E465F1 /* ViewController.h */,
+				B352F31E1D52206600E465F1 /* ViewController.m */,
+				B352F3201D52206600E465F1 /* Main.storyboard */,
+				B352F3231D52206600E465F1 /* Assets.xcassets */,
+				B352F3251D52206600E465F1 /* LaunchScreen.storyboard */,
+				B352F3281D52206600E465F1 /* Info.plist */,
+				B352F3171D52206600E465F1 /* Supporting Files */,
+			);
+			path = "链式编程";
+			sourceTree = "<group>";
+		};
+		B352F3171D52206600E465F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B352F3181D52206600E465F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B35834971D49DE8400E4C453 = {
 			isa = PBXGroup;
 			children = (
 				B35834A21D49DE8400E4C453 /* iOS多线程 */,
 				B35834BF1D49FBBF00E4C453 /* NSThreadStudy */,
+				B352F3161D52206600E465F1 /* 链式编程 */,
 				B35834A11D49DE8400E4C453 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +124,7 @@
 			children = (
 				B35834A01D49DE8400E4C453 /* iOS多线程.app */,
 				B35834BE1D49FBBF00E4C453 /* NSThreadStudy.app */,
+				B352F3151D52206600E465F1 /* 链式编程.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +180,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B352F3141D52206600E465F1 /* 链式编程 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B352F3291D52206600E465F1 /* Build configuration list for PBXNativeTarget "链式编程" */;
+			buildPhases = (
+				B352F3111D52206600E465F1 /* Sources */,
+				B352F3121D52206600E465F1 /* Frameworks */,
+				B352F3131D52206600E465F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "链式编程";
+			productName = "链式编程";
+			productReference = B352F3151D52206600E465F1 /* 链式编程.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B358349F1D49DE8400E4C453 /* iOS多线程 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B35834B71D49DE8400E4C453 /* Build configuration list for PBXNativeTarget "iOS多线程" */;
@@ -174,6 +240,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = leo;
 				TargetAttributes = {
+					B352F3141D52206600E465F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					B358349F1D49DE8400E4C453 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -197,11 +266,22 @@
 			targets = (
 				B358349F1D49DE8400E4C453 /* iOS多线程 */,
 				B35834BD1D49FBBF00E4C453 /* NSThreadStudy */,
+				B352F3141D52206600E465F1 /* 链式编程 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B352F3131D52206600E465F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B352F3271D52206600E465F1 /* LaunchScreen.storyboard in Resources */,
+				B352F3241D52206600E465F1 /* Assets.xcassets in Resources */,
+				B352F3221D52206600E465F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B358349E1D49DE8400E4C453 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +305,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B352F3111D52206600E465F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B352F31F1D52206600E465F1 /* ViewController.m in Sources */,
+				B352F31C1D52206600E465F1 /* AppDelegate.m in Sources */,
+				B352F3191D52206600E465F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B358349C1D49DE8400E4C453 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,6 +338,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		B352F3201D52206600E465F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B352F3211D52206600E465F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B352F3251D52206600E465F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B352F3261D52206600E465F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		B35834AC1D49DE8400E4C453 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +389,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B352F32A1D52206600E465F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "链式编程/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microleo.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B352F32B1D52206600E465F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "链式编程/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microleo.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B35834B51D49DE8400E4C453 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -414,6 +542,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B352F3291D52206600E465F1 /* Build configuration list for PBXNativeTarget "链式编程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B352F32A1D52206600E465F1 /* Debug */,
+				B352F32B1D52206600E465F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B358349B1D49DE8400E4C453 /* Build configuration list for PBXProject "iOS多线程" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
