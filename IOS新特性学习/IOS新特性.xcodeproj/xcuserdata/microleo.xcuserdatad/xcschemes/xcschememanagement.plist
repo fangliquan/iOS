@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>static_extern使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>关键字_kindof.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -98,6 +103,11 @@
 			<true/>
 		</dict>
 		<key>B3699C6A1D41F3A10042CE17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B36DF2DE1D45EB6B0026F7DA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
