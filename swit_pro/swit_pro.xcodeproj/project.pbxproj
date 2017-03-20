@@ -26,6 +26,7 @@
 		B337ED091E7FD1F0000C7770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B337ED0C1E7FD1F0000C7770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B337ED0E1E7FD1F0000C7770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B337ED141E7FD20F000C7770 /* my_swift_pro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = my_swift_pro.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 				B337ED0B1E7FD1F0000C7770 /* LaunchScreen.storyboard */,
 				B337ED0E1E7FD1F0000C7770 /* Info.plist */,
 				B337ECFD1E7FD1F0000C7770 /* Supporting Files */,
+				B337ED141E7FD20F000C7770 /* my_swift_pro.playground */,
 			);
 			path = swit_pro;
 			sourceTree = "<group>";
