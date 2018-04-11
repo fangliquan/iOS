@@ -1,0 +1,31 @@
+
+platform :ios, ‘8.4’
+
+
+
+target 'ReactNativeApp’ do
+
+pod 'React', :path => './reactnative/node_modules/react-native', :subspecs => [   'Core',
+    'ART',
+    'RCTActionSheet',
+    'RCTAdSupport',
+    'RCTGeolocation',
+    'RCTImage',
+    'RCTNetwork',
+    'RCTPushNotification',
+    'RCTSettings',
+    'RCTText',
+    'RCTVibration',
+    'RCTWebSocket',
+    'RCTLinkingIOS',
+    # Add any other subspecs you want to use in your project
+  ]
+
+pod ‘Masonry’, '1.1.0'
+pod 'MJRefresh'
+pod 'MJExtension','3.0.13'
+pod 'SDWebImage','3.8.1'
+pod 'BlocksKit', '2.2.5'
+
+
+end

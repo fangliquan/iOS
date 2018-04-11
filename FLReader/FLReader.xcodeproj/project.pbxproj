@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC7D93D207CE8EC00C5CBC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7D93C207CE8EC00C5CBC5 /* AppDelegate.m */; };
+		0AC7D940207CE8EC00C5CBC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7D93F207CE8EC00C5CBC5 /* ViewController.m */; };
+		0AC7D943207CE8EC00C5CBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC7D941207CE8EC00C5CBC5 /* Main.storyboard */; };
+		0AC7D948207CE8F000C5CBC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC7D947207CE8F000C5CBC5 /* Assets.xcassets */; };
+		0AC7D94B207CE8F000C5CBC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC7D949207CE8F000C5CBC5 /* LaunchScreen.storyboard */; };
+		0AC7D94E207CE8F000C5CBC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7D94D207CE8F000C5CBC5 /* main.m */; };
+		0AC7D958207CE8F000C5CBC5 /* FLReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7D957207CE8F000C5CBC5 /* FLReaderTests.m */; };
+		0AC7D963207CE8F000C5CBC5 /* FLReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7D962207CE8F000C5CBC5 /* FLReaderUITests.m */; };
+		46444C8B4DAABECFCB0CB13C /* libPods-FLReaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FCFE5E9DBBF31E8BA0246D /* libPods-FLReaderTests.a */; };
+		6F2260E81EFD7CE3EAD27925 /* libPods-FLReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB2349F98C3717F3CDFE5F4 /* libPods-FLReader.a */; };
+		D3E2BA76EE4FC20E70B77A08 /* libPods-FLReaderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F117E5069092CE9A02E2FE20 /* libPods-FLReaderUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AC7D954207CE8F000C5CBC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC7D930207CE8EB00C5CBC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC7D937207CE8EB00C5CBC5;
+			remoteInfo = FLReader;
+		};
+		0AC7D95F207CE8F000C5CBC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC7D930207CE8EB00C5CBC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC7D937207CE8EB00C5CBC5;
+			remoteInfo = FLReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC7D938207CE8EC00C5CBC5 /* FLReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC7D93B207CE8EC00C5CBC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AC7D93C207CE8EC00C5CBC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AC7D93E207CE8EC00C5CBC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AC7D93F207CE8EC00C5CBC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AC7D942207CE8EC00C5CBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AC7D947207CE8F000C5CBC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AC7D94A207CE8F000C5CBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AC7D94C207CE8F000C5CBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC7D94D207CE8F000C5CBC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AC7D953207CE8F000C5CBC5 /* FLReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC7D957207CE8F000C5CBC5 /* FLReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLReaderTests.m; sourceTree = "<group>"; };
+		0AC7D959207CE8F000C5CBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC7D95E207CE8F000C5CBC5 /* FLReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC7D962207CE8F000C5CBC5 /* FLReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLReaderUITests.m; sourceTree = "<group>"; };
+		0AC7D964207CE8F000C5CBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB2349F98C3717F3CDFE5F4 /* libPods-FLReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E61B0FC8EF3D67961FF753 /* Pods-FLReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLReader/Pods-FLReader.release.xcconfig"; sourceTree = "<group>"; };
+		5B972B9F44B7A170362AC122 /* Pods-FLReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLReaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLReaderUITests/Pods-FLReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78FCFE5E9DBBF31E8BA0246D /* libPods-FLReaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLReaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28281A6F4D104B647F94F4C /* Pods-FLReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLReaderTests/Pods-FLReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		C908BF034830143A61F79EA8 /* Pods-FLReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLReaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLReaderUITests/Pods-FLReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEF80F8A63A61528E7850EA3 /* Pods-FLReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLReaderTests/Pods-FLReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F117E5069092CE9A02E2FE20 /* libPods-FLReaderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLReaderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FAD83DEF5568AF2885B0BC /* Pods-FLReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLReader/Pods-FLReader.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AC7D935207CE8EB00C5CBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2260E81EFD7CE3EAD27925 /* libPods-FLReader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC7D950207CE8F000C5CBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46444C8B4DAABECFCB0CB13C /* libPods-FLReaderTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC7D95B207CE8F000C5CBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E2BA76EE4FC20E70B77A08 /* libPods-FLReaderUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC7D92F207CE8EB00C5CBC5 = {
+			isa = PBXGroup;
+			children = (
+				0AC7D93A207CE8EC00C5CBC5 /* FLReader */,
+				0AC7D956207CE8F000C5CBC5 /* FLReaderTests */,
+				0AC7D961207CE8F000C5CBC5 /* FLReaderUITests */,
+				0AC7D939207CE8EC00C5CBC5 /* Products */,
+				71C5861819774D7367BF0817 /* Pods */,
+				48CBB7DBF5FB96B3A9493D9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0AC7D939207CE8EC00C5CBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AC7D938207CE8EC00C5CBC5 /* FLReader.app */,
+				0AC7D953207CE8F000C5CBC5 /* FLReaderTests.xctest */,
+				0AC7D95E207CE8F000C5CBC5 /* FLReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AC7D93A207CE8EC00C5CBC5 /* FLReader */ = {
+			isa = PBXGroup;
+			children = (
+				0AC7D93B207CE8EC00C5CBC5 /* AppDelegate.h */,
+				0AC7D93C207CE8EC00C5CBC5 /* AppDelegate.m */,
+				0AC7D93E207CE8EC00C5CBC5 /* ViewController.h */,
+				0AC7D93F207CE8EC00C5CBC5 /* ViewController.m */,
+				0AC7D941207CE8EC00C5CBC5 /* Main.storyboard */,
+				0AC7D947207CE8F000C5CBC5 /* Assets.xcassets */,
+				0AC7D949207CE8F000C5CBC5 /* LaunchScreen.storyboard */,
+				0AC7D94C207CE8F000C5CBC5 /* Info.plist */,
+				0AC7D94D207CE8F000C5CBC5 /* main.m */,
+			);
+			path = FLReader;
+			sourceTree = "<group>";
+		};
+		0AC7D956207CE8F000C5CBC5 /* FLReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AC7D957207CE8F000C5CBC5 /* FLReaderTests.m */,
+				0AC7D959207CE8F000C5CBC5 /* Info.plist */,
+			);
+			path = FLReaderTests;
+			sourceTree = "<group>";
+		};
+		0AC7D961207CE8F000C5CBC5 /* FLReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AC7D962207CE8F000C5CBC5 /* FLReaderUITests.m */,
+				0AC7D964207CE8F000C5CBC5 /* Info.plist */,
+			);
+			path = FLReaderUITests;
+			sourceTree = "<group>";
+		};
+		48CBB7DBF5FB96B3A9493D9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB2349F98C3717F3CDFE5F4 /* libPods-FLReader.a */,
+				78FCFE5E9DBBF31E8BA0246D /* libPods-FLReaderTests.a */,
+				F117E5069092CE9A02E2FE20 /* libPods-FLReaderUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71C5861819774D7367BF0817 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5FAD83DEF5568AF2885B0BC /* Pods-FLReader.debug.xcconfig */,
+				46E61B0FC8EF3D67961FF753 /* Pods-FLReader.release.xcconfig */,
+				EEF80F8A63A61528E7850EA3 /* Pods-FLReaderTests.debug.xcconfig */,
+				A28281A6F4D104B647F94F4C /* Pods-FLReaderTests.release.xcconfig */,
+				C908BF034830143A61F79EA8 /* Pods-FLReaderUITests.debug.xcconfig */,
+				5B972B9F44B7A170362AC122 /* Pods-FLReaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AC7D937207CE8EB00C5CBC5 /* FLReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC7D967207CE8F000C5CBC5 /* Build configuration list for PBXNativeTarget "FLReader" */;
+			buildPhases = (
+				D8FC3151DD111D615CB7B395 /* [CP] Check Pods Manifest.lock */,
+				0AC7D934207CE8EB00C5CBC5 /* Sources */,
+				0AC7D935207CE8EB00C5CBC5 /* Frameworks */,
+				0AC7D936207CE8EB00C5CBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLReader;
+			productName = FLReader;
+			productReference = 0AC7D938207CE8EC00C5CBC5 /* FLReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AC7D952207CE8F000C5CBC5 /* FLReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC7D96A207CE8F000C5CBC5 /* Build configuration list for PBXNativeTarget "FLReaderTests" */;
+			buildPhases = (
+				6894D076A31821E7DA2CB2CB /* [CP] Check Pods Manifest.lock */,
+				0AC7D94F207CE8F000C5CBC5 /* Sources */,
+				0AC7D950207CE8F000C5CBC5 /* Frameworks */,
+				0AC7D951207CE8F000C5CBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC7D955207CE8F000C5CBC5 /* PBXTargetDependency */,
+			);
+			name = FLReaderTests;
+			productName = FLReaderTests;
+			productReference = 0AC7D953207CE8F000C5CBC5 /* FLReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AC7D95D207CE8F000C5CBC5 /* FLReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC7D96D207CE8F000C5CBC5 /* Build configuration list for PBXNativeTarget "FLReaderUITests" */;
+			buildPhases = (
+				073F39B9D636B0203A5DE29E /* [CP] Check Pods Manifest.lock */,
+				0AC7D95A207CE8F000C5CBC5 /* Sources */,
+				0AC7D95B207CE8F000C5CBC5 /* Frameworks */,
+				0AC7D95C207CE8F000C5CBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC7D960207CE8F000C5CBC5 /* PBXTargetDependency */,
+			);
+			name = FLReaderUITests;
+			productName = FLReaderUITests;
+			productReference = 0AC7D95E207CE8F000C5CBC5 /* FLReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AC7D930207CE8EB00C5CBC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = leo;
+				TargetAttributes = {
+					0AC7D937207CE8EB00C5CBC5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0AC7D952207CE8F000C5CBC5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0AC7D937207CE8EB00C5CBC5;
+					};
+					0AC7D95D207CE8F000C5CBC5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0AC7D937207CE8EB00C5CBC5;
+					};
+				};
+			};
+			buildConfigurationList = 0AC7D933207CE8EB00C5CBC5 /* Build configuration list for PBXProject "FLReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AC7D92F207CE8EB00C5CBC5;
+			productRefGroup = 0AC7D939207CE8EC00C5CBC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AC7D937207CE8EB00C5CBC5 /* FLReader */,
+				0AC7D952207CE8F000C5CBC5 /* FLReaderTests */,
+				0AC7D95D207CE8F000C5CBC5 /* FLReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AC7D936207CE8EB00C5CBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC7D94B207CE8F000C5CBC5 /* LaunchScreen.storyboard in Resources */,
+				0AC7D948207CE8F000C5CBC5 /* Assets.xcassets in Resources */,
+				0AC7D943207CE8EC00C5CBC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC7D951207CE8F000C5CBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC7D95C207CE8F000C5CBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		073F39B9D636B0203A5DE29E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLReaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6894D076A31821E7DA2CB2CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8FC3151DD111D615CB7B395 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AC7D934207CE8EB00C5CBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC7D940207CE8EC00C5CBC5 /* ViewController.m in Sources */,
+				0AC7D94E207CE8F000C5CBC5 /* main.m in Sources */,
+				0AC7D93D207CE8EC00C5CBC5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC7D94F207CE8F000C5CBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC7D958207CE8F000C5CBC5 /* FLReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC7D95A207CE8F000C5CBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC7D963207CE8F000C5CBC5 /* FLReaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AC7D955207CE8F000C5CBC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC7D937207CE8EB00C5CBC5 /* FLReader */;
+			targetProxy = 0AC7D954207CE8F000C5CBC5 /* PBXContainerItemProxy */;
+		};
+		0AC7D960207CE8F000C5CBC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC7D937207CE8EB00C5CBC5 /* FLReader */;
+			targetProxy = 0AC7D95F207CE8F000C5CBC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AC7D941207CE8EC00C5CBC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AC7D942207CE8EC00C5CBC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AC7D949207CE8F000C5CBC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AC7D94A207CE8F000C5CBC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AC7D965207CE8F000C5CBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AC7D966207CE8F000C5CBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AC7D968207CE8F000C5CBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5FAD83DEF5568AF2885B0BC /* Pods-FLReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YY3S9BBZ6;
+				INFOPLIST_FILE = FLReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.microleo.FLReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AC7D969207CE8F000C5CBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E61B0FC8EF3D67961FF753 /* Pods-FLReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YY3S9BBZ6;
+				INFOPLIST_FILE = FLReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.microleo.FLReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AC7D96B207CE8F000C5CBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF80F8A63A61528E7850EA3 /* Pods-FLReaderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YY3S9BBZ6;
+				INFOPLIST_FILE = FLReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.microleo.FLReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLReader.app/FLReader";
+			};
+			name = Debug;
+		};
+		0AC7D96C207CE8F000C5CBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28281A6F4D104B647F94F4C /* Pods-FLReaderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YY3S9BBZ6;
+				INFOPLIST_FILE = FLReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.microleo.FLReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLReader.app/FLReader";
+			};
+			name = Release;
+		};
+		0AC7D96E207CE8F000C5CBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C908BF034830143A61F79EA8 /* Pods-FLReaderUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YY3S9BBZ6;
+				INFOPLIST_FILE = FLReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.microleo.FLReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLReader;
+			};
+			name = Debug;
+		};
+		0AC7D96F207CE8F000C5CBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B972B9F44B7A170362AC122 /* Pods-FLReaderUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YY3S9BBZ6;
+				INFOPLIST_FILE = FLReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.microleo.FLReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC7D933207CE8EB00C5CBC5 /* Build configuration list for PBXProject "FLReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC7D965207CE8F000C5CBC5 /* Debug */,
+				0AC7D966207CE8F000C5CBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC7D967207CE8F000C5CBC5 /* Build configuration list for PBXNativeTarget "FLReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC7D968207CE8F000C5CBC5 /* Debug */,
+				0AC7D969207CE8F000C5CBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC7D96A207CE8F000C5CBC5 /* Build configuration list for PBXNativeTarget "FLReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC7D96B207CE8F000C5CBC5 /* Debug */,
+				0AC7D96C207CE8F000C5CBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC7D96D207CE8F000C5CBC5 /* Build configuration list for PBXNativeTarget "FLReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC7D96E207CE8F000C5CBC5 /* Debug */,
+				0AC7D96F207CE8F000C5CBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AC7D930207CE8EB00C5CBC5 /* Project object */;
+}

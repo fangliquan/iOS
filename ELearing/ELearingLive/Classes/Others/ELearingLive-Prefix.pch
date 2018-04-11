@@ -1,0 +1,69 @@
+//
+//  ELearingLive-Prefix.pch
+//  ELearingLive
+//
+//  Created by microleo on 2017/5/4.
+//  Copyright © 2017年 leo. All rights reserved.
+//
+
+#ifndef ELearingLive_Prefix_pch
+#define ELearingLive_Prefix_pch
+
+#endif
+
+// 1.判断是否为iOS8
+#define iOS8AndLater ([[UIDevice currentDevice].systemVersion doubleValue] >= 8.0)
+
+// 2.获得RGB颜色
+#define AndyColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+#define AndyNavigationBarTintColor AndyColor(255, 255, 255, 0.85)
+#define AndyPerformanceColor AndyColor(227, 74, 54, 1.0)
+
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
+
+#define XAppDelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+
+
+#define AndyNewsTitleFont AndyMainScreenSize.width > 320 ? [UIFont systemFontOfSize:15] : [UIFont systemFontOfSize:13]
+#define AndyNewsTitleNotReadColor AndyColor(37, 35, 35, 1.0)
+#define AndyNewsTitleHasAlreadyReadColor AndyColor(118, 123, 124, 1.0)
+#define AndyNewsSummaryFont AndyMainScreenSize.width > 320 ? [UIFont systemFontOfSize:13] : [UIFont systemFontOfSize:11]
+
+
+#define Main_Screen_Height      [[UIScreen mainScreen] bounds].size.height
+#define Main_Screen_Width       [[UIScreen mainScreen] bounds].size.width
+
+#define EL_COLOR_BLUE [UIColor colorWithRed:64/255.0 green:177/255.0 blue:253/255.0 alpha:1.0f]
+#define EL_COLOR_RED [UIColor colorWithRed:248/255.0 green:102/255.0 blue:66/255.0 alpha:1]
+#define EL_COLOR_RED_Selected [UIColor colorWithRed:0.672 green:0.282 blue:0.184 alpha:1.000]
+#define EL_COLOR_Segment_Yellow [UIColor colorWithRed:1.000 green:0.651 blue:0.180 alpha:1.00]
+
+#define EL_COLOR_Gift_Yellow [UIColor colorWithRed:1.000 green:0.384 blue:0.384 alpha:1.00]
+
+#define EL_TEXTCOLOR_DARKGRAY [UIColor colorWithRed:0 green:0 blue:0 alpha:0.8]
+#define EL_TEXTCOLOR_GRAY [UIColor colorWithRed:0 green:0 blue:0 alpha:0.5]
+#define EL_TEXTCOLOR_DARK_(SCALE) [UIColor colorWithRed:0 green:0 blue:0 alpha:SCALE]
+
+#define EL_VIEWCOLOR_HEIGHT [UIColor colorWithWhite:0.000 alpha:0.152]
+
+#define EL_TEXTFONT_(fontSize) [UIFont systemFontOfSize:fontSize]
+#define EL_TEXTFONT_TITLE [UIFont systemFontOfSize:15]
+#define EL_TEXTFONT_CONTENT [UIFont systemFontOfSize:13]
+#define EL_TEXTFONT_SMALL [UIFont systemFontOfSize:11]
+
+#define EL_TEXTFONT_FLOAT_TITLE   15
+#define EL_TEXTFONT_FLOAT_TITLE_BIG   17
+#define EL_TEXTFONT_FLOAT_CONTENT 13
+#define EL_TEXTFONT_FLOAT_CONTENT_BIG 15
+#define EL_TEXTFONT_FLOAT_SMALL   11
+
+#define EL_Default_Image [UIImage imageNamed:@"image_default_placeholder"]
+#define EL_Default_Image_header [UIImage imageNamed:@"image_default_userheader"]
+
+#import "WWToolManager.h"
